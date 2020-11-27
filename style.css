@@ -1,0 +1,46 @@
+html, body {
+  background: url(star-wars-backgrounds-08.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  border-color: #f7602b;
+  border-width: 3px;
+  max-width: 65px;
+}
+h1 {
+  font-size: 3rem;
+  display: flex;
+  color: #e2dbdb;
+  text-shadow:1px 1px 2px gray, 0 0 0.2em #4b63e8, 0 0 0.2em #dfdef7;
+}
+.buffer{
+  height: 55px;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  transition: all 0.2s
+}
+.btn-xl {
+  background-color: #f7602b;
+  padding: 1rem 2rem;
+  border-color: #f7602b;
+}
+.btn-xl:hover {
+background-color: #ee4b08;
+border-color: white;
+color: white;
+border-width: 2px;
+transform: scale(1.1);
+
+}
+.btn-xl:visited {
+background-color: blue;
+}
